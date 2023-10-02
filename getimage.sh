@@ -15,4 +15,11 @@ run() {
     gs -dSAFER -dBATCH -dNOPAUSE -sDEVICE=png16m -r300 -dGraphicsAlphaBits=4 -dTextAlphaBits=4 -sOutputFile="image-%d.png" "$1"
 }
 
+# move image to Images folder
+if [ ! -d "Images" ]; then
+    mkdir Images
+fi
+
+mv image-*.png Images
+
 run "$FILEPATH"

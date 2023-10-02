@@ -1,0 +1,13 @@
+{
+  "name": "resume",
+  "version": "1.0.1",
+  "main": "index.js",
+  "author": "rahul007-bit <yadavrahul8141@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
