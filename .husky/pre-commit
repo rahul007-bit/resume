@@ -2,3 +2,6 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 sh getimage.sh main.pdf
+
+# add image to git
+git add Images
